@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000;
+  color: white;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@font-face {
+  src: url("../fonts/Oswald/static/Oswald-ExtraLight.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-family: Oswald200;
+}
+@font-face {
+  src: url("../fonts/Oswald/static/Oswald-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-family: Oswald300;
+}
+@font-face {
+  src: url("../fonts/Oswald/static/Oswald-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-family: Oswald400;
+}
+@font-face {
+  src: url("../fonts/Oswald/static/Oswald-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-family: Oswald500;
+}
+@font-face {
+  src: url("../fonts/Oswald/static/Oswald-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-family: Oswald600;
+}
+@font-face {
+  src: url("../fonts/Oswald/static/Oswald-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-family: Oswald700;
+}
+
+/* Roboto */
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: 100;
+  font-family: Roboto100;
+}
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-family: Roboto300;
+}
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-family: Roboto400;
+}
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-family: Roboto500;
+}
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-family: Roboto700;
+}
